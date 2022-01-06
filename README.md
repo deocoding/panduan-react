@@ -111,8 +111,8 @@ Node JS merupakan JavaScript runtime yang dibangun untuk `Chrome V8 JavaScript e
     yarn add styled-components
   ```
 
-  ```java
-    import styled from "styled-components";
+  ```js
+  import styled from "styled-components";
   ```
 
 - Jika ada error saat mengcompile, jalankan perintah berikut :
