@@ -12,21 +12,43 @@ Node JS merupakan JavaScript runtime yang dibangun untuk `Chrome V8 JavaScript e
 ## Buat aplikasi React baru
 
 - Pastikan bahwa `Yarn` telah terinstall. Jika belum jalankan perintah :
+
   ```bash
     npm install -g yarn
   ```
+
 - Verifikasi bahwa `Yarn` telah terinstall.
+
   ```bash
     yarn -v
   ```
+
 - Install aplikasi `React` dengan nama proyek `tesla-clone` dan menggunakan template `redux`.
+
   ```bash
     npx create-react-app tesla-clone --template redux
   ```
+
 - Arahkan ke folder `tesla-clone` dan uji coba server.
 
   ```bash
     cd tesla-clone
 
-    npm start
+    yarn start
   ```
+
+- Buka VS Code.
+
+```bash
+    code .
+```
+
+- Buka terminal pada VS Code dan jalankan server lokal menggunakan `yarn`.
+
+```bash
+    yarn start
+```
+
+## Mulai pengembangan aplikasi React
+
+- Buka file `src/App.js` dan hapus komponen `<header ...>`.
