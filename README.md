@@ -1,4 +1,5 @@
-<br/>
-<h1 align="center">Tutorial REACT JS</h1>
+# Tutorial REACT
+
+React merupakan library Javascript untuk pengembangan UI
 
 ## Langkah-Langkah
