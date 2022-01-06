@@ -51,4 +51,17 @@ Node JS merupakan JavaScript runtime yang dibangun untuk `Chrome V8 JavaScript e
 
 ## Mulai pengembangan aplikasi React
 
-- Buka file `src/App.js` dan hapus komponen `<header ...>`.
+- Buka file `src/App.js` dan hapus komponen `<header ...>` untuk menghapus tampilan default.
+- Buka file `src/index.css` dan hapus semua isinya.
+- Buat folder `components` pada folder `src`. Tambahkan file komponen layout sesuai dengan desain yang anda inginkan, misal file `Header.js`.
+- Pada file `Header.js`, ketik perintah `rfce` dan tekan enter maka format komponen React akan otomatis dibuat.
+
+  ```javascript
+  import React from "react";
+
+  function Header() {
+    return <div></div>;
+  }
+
+  export default Header;
+  ```
