@@ -119,3 +119,16 @@ Node JS merupakan JavaScript runtime yang dibangun untuk `Chrome V8 JavaScript e
   ```bash
   npm install --legacy-peer-deps
   ```
+
+- Menambahkan Material UI
+
+  ```bash
+  yarn add @mui/material @emotion/react @emotion/styled
+  yarn add @mui/icons-material
+  ```
+
+- Menambahkan Animasi dengan mengetik keyword `react reveal` pada google search dan install
+
+  ```bash
+  yarn add react-reveal
+  ```
