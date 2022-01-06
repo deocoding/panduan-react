@@ -14,40 +14,39 @@ Node JS merupakan JavaScript runtime yang dibangun untuk `Chrome V8 JavaScript e
 - Pastikan bahwa `Yarn` telah terinstall. Jika belum jalankan perintah :
 
   ```bash
-    npm install -g yarn
+  npm install -g yarn
   ```
 
 - Verifikasi bahwa `Yarn` telah terinstall.
 
   ```bash
-    yarn -v
+  yarn -v
   ```
 
 - Install aplikasi `React` dengan nama proyek `tesla-clone` dan menggunakan template `redux`.
 
   ```bash
-    npx create-react-app tesla-clone --template redux
+  npx create-react-app tesla-clone --template redux
   ```
 
 - Arahkan ke folder `tesla-clone` dan uji coba server.
 
   ```bash
-    cd tesla-clone
-
-    yarn start
+  cd tesla-clone
+  yarn start
   ```
 
 - Buka VS Code.
 
-```bash
-    code .
-```
+  ```bash
+  code .
+  ```
 
 - Buka terminal pada VS Code dan jalankan server lokal menggunakan `yarn`.
 
-```bash
-    yarn start
-```
+  ```bash
+  yarn start
+  ```
 
 ## Mulai pengembangan aplikasi React
 
@@ -108,7 +107,7 @@ Node JS merupakan JavaScript runtime yang dibangun untuk `Chrome V8 JavaScript e
 - Tambahkan library `styled-components` pada terminal dan lakukan import pada file `Home`.
 
   ```bash
-    yarn add styled-components
+  yarn add styled-components
   ```
 
   ```javascript
@@ -118,5 +117,5 @@ Node JS merupakan JavaScript runtime yang dibangun untuk `Chrome V8 JavaScript e
 - Jika ada error saat mengcompile, jalankan perintah berikut :
 
   ```bash
-    npm install --legacy-peer-deps
+  npm install --legacy-peer-deps
   ```
