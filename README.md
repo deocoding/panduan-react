@@ -87,3 +87,23 @@ Node JS merupakan JavaScript runtime yang dibangun untuk `Chrome V8 JavaScript e
 
   export default App;
   ```
+
+- Tambahkan kode-kode css berikut pada file `src/index.css`.
+
+  ```css
+  * {
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    color: #393c41;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    width: 100%;
+  }
+  ```
+
+```
+
+```
