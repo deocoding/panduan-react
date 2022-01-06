@@ -65,3 +65,29 @@ Node JS merupakan JavaScript runtime yang dibangun untuk `Chrome V8 JavaScript e
 
   export default Header;
   ```
+
+- Import komponen pada file `src/App.js` untuk dapat dilakukan pemanggilan.
+
+  ```javascript
+  import React from "react";
+  import logo from "./logo.svg";
+  import { Counter } from "./features/counter/Counter";
+  import "./App.css";
+  // import komponen Header.js
+  import Header from "./components/Header";
+
+  function App() {
+    return (
+      <div className="App">
+        {/* pemangilan komponen Header.js */}
+        <Header />
+      </div>
+    );
+  }
+
+  export default App;
+  ```
+
+```
+
+```
