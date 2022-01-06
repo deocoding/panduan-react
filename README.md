@@ -104,6 +104,19 @@ Node JS merupakan JavaScript runtime yang dibangun untuk `Chrome V8 JavaScript e
   }
   ```
 
-```
+- Buat komponen baru dengan nama `Home` seperti cara sebelumnya.
+- Tambahkan library `styled-components` pada terminal dan lakukan import pada file `Home`.
 
-```
+  ```bash
+    yarn add styled-components
+  ```
+
+  ```java
+    import styled from "styled-components";
+  ```
+
+- Jika ada error saat mengcompile, jalankan perintah berikut :
+
+  ```bash
+    npm install --legacy-peer-deps
+  ```
