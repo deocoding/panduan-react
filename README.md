@@ -2,14 +2,16 @@
 
 React merupakan library JavaScript untuk pengembangan UI.
 
-## Instalasi Node JS di Windows 10
+<h2 align="center">Studi Kasus -> Web Tesla Clone</h2>
+
+### Instalasi Node JS di Windows 10
 
 Node JS merupakan JavaScript runtime yang dibangun untuk `Chrome V8 JavaScript engine`.
 
 - Download installer `Node.js` pada alamat `nodejs.org`, versi yang digunakan adalah versi `16.13.1 LTS`. Kemudian klik untuk menginstallnya.
 - Install installer yang telah didownload.
 
-## Buat aplikasi React baru
+### Buat aplikasi React baru
 
 - Pastikan bahwa `Yarn` telah terinstall. Jika belum jalankan perintah :
 
@@ -49,7 +51,7 @@ Node JS merupakan JavaScript runtime yang dibangun untuk `Chrome V8 JavaScript e
     yarn start
 ```
 
-## Mulai pengembangan aplikasi React
+### Mulai pengembangan aplikasi React
 
 - Buka file `src/App.js` dan hapus komponen `<header ...>` untuk menghapus tampilan default.
 - Buka file `src/index.css` dan hapus semua isinya.
@@ -87,7 +89,3 @@ Node JS merupakan JavaScript runtime yang dibangun untuk `Chrome V8 JavaScript e
 
   export default App;
   ```
-
-```
-
-```
