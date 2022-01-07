@@ -150,12 +150,12 @@ Node JS merupakan JavaScript runtime yang dibangun untuk `Chrome V8 JavaScript e
 - Buat folder `components` didalam folder `src`. Letakkan semua komponen difolder ini.
 - Pemanggilan komponen menggunakan perintah :
 
-```javascript
-import Header from "./components/Header";
-```
+  ```javascript
+  import Header from "./components/Header";
+  ```
 
 - Pemanggilan komponen didalam fungsi menggunakan perintah :
 
-```javascript
-<Header />
-```
+  ```javascript
+  <Header />
+  ```
