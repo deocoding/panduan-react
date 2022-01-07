@@ -135,6 +135,8 @@ Node JS merupakan JavaScript runtime yang dibangun untuk `Chrome V8 JavaScript e
 
   > Muncul error pada console, perlu diperbaiki
 
+<br/>
+
 <h1 align="center">Tutorial REACT - "Web Disney+ Clone"</h1>
 
 ## Pembersihan Awal
@@ -145,4 +147,4 @@ Node JS merupakan JavaScript runtime yang dibangun untuk `Chrome V8 JavaScript e
 
 ## Mulai Coding
 
-- Buat folder `components` didalam folder `src`.
+- Buat folder `components` didalam folder `src`. Letakkan semua komponen difolder ini.
