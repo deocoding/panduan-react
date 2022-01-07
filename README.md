@@ -173,6 +173,26 @@ Node JS merupakan JavaScript runtime yang dibangun untuk `Chrome V8 JavaScript e
   ```
 
 - Install modul `react-slick` untuk efek carousel. link doc `https://react-slick.neostack.com/docs/get-started`
-  ```bash
 
+  ```bash
+  npm install react-slick --save
+  ```
+
+- Install modul `react-router-dom` untuk routing halaman. link doc `https://v5.reactrouter.com/web/guides/quick-start`
+
+  ```bash
+  yarn add react-router-dom
+  <!-- or -->
+  npm install react-router-dom
+  ```
+
+  Import modul
+
+  ```javascript
+  import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link,
+  } from "react-router-dom";
   ```
