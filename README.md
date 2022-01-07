@@ -134,3 +134,15 @@ Node JS merupakan JavaScript runtime yang dibangun untuk `Chrome V8 JavaScript e
   ```
 
   > Muncul error pada console, perlu diperbaiki
+
+<h1 align="center">Tutorial REACT - "Web Disney+ Clone"</h1>
+
+## Pembersihan Awal
+
+- Hapus component `<header>` & baris `import logo from "./logo.svg";` pada file `App.js`.
+- Hapus semua isi pada file `App.css`.
+- Hapus file `App.test.js` & `logo.svg`.
+
+## Mulai Coding
+
+- Buat folder `components` didalam folder `src`.
