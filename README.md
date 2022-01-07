@@ -132,3 +132,5 @@ Node JS merupakan JavaScript runtime yang dibangun untuk `Chrome V8 JavaScript e
   ```bash
   yarn add react-reveal
   ```
+
+  > Muncul error pada console, perlu diperbaiki
