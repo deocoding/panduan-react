@@ -148,7 +148,7 @@ Node JS merupakan JavaScript runtime yang dibangun untuk `Chrome V8 JavaScript e
 ## Mulai Coding
 
 - Buat folder `components` didalam folder `src`. Letakkan semua komponen difolder ini.
-- Pemanggilan komponen menggunakan perintah :
+- Import komponen menggunakan perintah :
 
   ```javascript
   import Header from "./components/Header";
@@ -158,4 +158,21 @@ Node JS merupakan JavaScript runtime yang dibangun untuk `Chrome V8 JavaScript e
 
   ```javascript
   <Header />
+  ```
+
+- Install paket `styled-components` melalui terminal.
+
+  ```bash
+  npm install styled-components
+  ```
+
+- Import paket `styled-components` pada file `Header.js`
+
+  ```javascript
+  import styled from "styled-components";
+  ```
+
+- Install modul `react-slick` untuk efek carousel. link doc `https://react-slick.neostack.com/docs/get-started`
+  ```bash
+
   ```
